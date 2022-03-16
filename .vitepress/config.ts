@@ -53,7 +53,7 @@ const sidebar = {
     {
       text: '进阶', items: [
         { text: '异步', link: '/js/enhance/async' },
-        { text: '手写Promise', link: '/js/enhance/promise-A+' },
+        { text: '手写Promise', link: '/js/enhance/promise' },
         { text: '面向对象和原型', link: '/js/enhance/prototype' },
         { text: 'es新特性', link: '/js/enhance/es-next' },
       ]
