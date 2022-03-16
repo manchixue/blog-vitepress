@@ -220,6 +220,10 @@ export default defineConfigWithTheme<ThemeConfig>({
       fs: {
         allow: ['../../']
       }
+    },
+    build: {
+      minify: 'terser',
+      chunkSizeWarningLimit: Infinity
     }
   }
 })
