@@ -69,6 +69,12 @@ const sidebar = {
       ]
     },
     {
+      text: 'Vue2', items: [
+        { text: 'Vue2目录结构', link: '/framework/vue2/file-structure' },
+        { text: '响应式原理', link: '/framework/vue2/reactivity' },
+      ]
+    },
+    {
       text: 'React', items: [
         { text: 'jsx', link: '/framework/react/jsx' },
         { text: 'diff', link: '/framework/react/diff' },
@@ -80,8 +86,9 @@ const sidebar = {
   ],
   '/project/': [
     {
-      text: '模块化', items: [
-        { text: '介绍', link: '/project/module' }
+      text: '杂项', items: [
+        { text: '模块化介绍', link: '/project/module' },
+        { text: '从零实现husky', link: '/project/husky' },
       ]
     },
     {
@@ -183,9 +190,11 @@ const sidebar = {
     }
   ],
   '/typescript/': [
-    { text: '入门', items: [
-      { text: '介绍', link: '/typescript/introduce' }
-    ] }
+    {
+      text: '入门', items: [
+        { text: '介绍', link: '/typescript/introduce' }
+      ]
+    }
   ]
 }
 
